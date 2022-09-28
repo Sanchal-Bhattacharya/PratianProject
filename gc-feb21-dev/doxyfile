@@ -1,0 +1,11 @@
+PROJECT_NAME = GlobalConnect
+OUTPUT_DIRECTORY = ./documentation/doc
+INPUT = ./business ./business/ExceptionFramework ./business/MessageService ./business/UserService \
+		./common ./common/ExceptionFramework \
+		./dao ./dao/DBFramework ./dao/ExceptionFramework \
+		./entities \
+		./util/log/LogExceptionFramework ./util/log/test ./util/log/ \
+		./web/ExceptionFramework ./web/webframework		
+FILE_PATTERNS = *.cpp *.h
+GENERATE_HTML = YES
+EXTRACT_ALL = YES

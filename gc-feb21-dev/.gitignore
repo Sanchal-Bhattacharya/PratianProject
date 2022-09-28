@@ -1,0 +1,15 @@
+# .gitignore for gc-connect
+
+**/DBConfig.json
+**/*.txt
+**/*.db
+**/*.o
+**/*.d
+**/*.so
+bin/**
+**/*.swp
+**/*.gcno
+**/*.gcda
+**/gcserver
+messageid.txt
+**/LogErrorTest
